@@ -1,0 +1,42 @@
+@import url(./all.min.css);
+
+#mealDetails .mealSoloPhoto img {
+  width: 100%;
+}
+#mealDetails .mealSoloPhoto h2 {
+  color: var(--secMain-color);
+}
+
+#mealDetails .mealSoloInfo {
+  color: var(--secMain-color);
+}
+
+#mealDetails .mealSoloInfo span:not(.badge) {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  margin: 0.4rem 0;
+  display: inline-block;
+}
+
+#mealDetails .mealSoloInfo button {
+  margin: 1.5rem 0;
+}
+
+#mealDetails .mealDisc {
+  position: relative;
+}
+#mealDetails .backBtn {
+  position: absolute;
+  font-size: 2.5rem;
+  color: #fff;
+  right: -40px;
+  top: -15px;
+  cursor: pointer;
+  width: fit-content;
+  transition: all 0.5s;
+}
+
+#mealDetails .backBtn:hover {
+  color: #ffcc11;
+}

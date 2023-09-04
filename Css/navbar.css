@@ -1,0 +1,81 @@
+#navBar {
+  position: fixed;
+  z-index: 999;
+  background-color: var(--main-color);
+  height: 100vh;
+  top: 0;
+  transform: translateX(-220px);
+  /* transform: translateX(0px); */
+  transition: transform 0.7s ease;
+}
+
+.naveSide {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.navContent {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secMain-color);
+}
+
+.navContent img {
+  width: 4rem;
+  padding-top: 1rem;
+  margin: 0 0.5rem;
+}
+
+.navMenu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navLinks {
+  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 220px;
+}
+
+.navLinks ul {
+  width: 100%;
+  height: 80%;
+  padding: 0;
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+
+.navLinks ul li {
+  color: var(--font-nav-color);
+  margin-left: 0.5rem;
+  width: 100%;
+  top: 300px;
+}
+.navLinks ul li a {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-left: 0.3rem;
+}
+.navBarOpen {
+  transform: translateX(0px) !important;
+  transition: transform 0.7s ease;
+}
+.hideLink {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  overflow: hidden;
+}
+/* .navBarClose {
+  transform: translateX(-220px) !important;
+  transition: transform 0.7s ease;
+} */
